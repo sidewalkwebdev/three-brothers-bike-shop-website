@@ -1,0 +1,30 @@
+/* Custom styles overriding Bootstrap if needed */
+
+/* Hero Section */
+.hero {
+  background: #f8f9fa;
+}
+
+.hero h1 {
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
