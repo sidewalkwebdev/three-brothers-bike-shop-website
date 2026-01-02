@@ -1,0 +1,10 @@
+# robots.txt for 3Brothers Bikeshop
+User-agent: *
+Allow: /
+
+# Disallow private/admin pages (if any)
+Disallow: /admin/
+Disallow: /cgi-bin/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
