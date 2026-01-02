@@ -45,6 +45,23 @@ h4,
   color: var(--brand-red) !important;
 }
 
+/* Center Call Now button on mobile */
+@media (max-width: 991px) {
+  .navbar-collapse .btn-primary {
+    margin: 15px auto 0 auto !important;
+    display: block;
+    width: fit-content;
+  }
+  
+  .navbar-collapse {
+    text-align: center;
+  }
+  
+  .navbar-nav {
+    align-items: center !important;
+  }
+}
+
 /* Hero Section */
 .hero {
   /* Placeholder image for a bike shop - replace URL with your own image */
