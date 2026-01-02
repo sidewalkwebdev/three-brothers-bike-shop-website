@@ -2,7 +2,7 @@ CHEAT SHEAT
 
 Start Working:
 ┌───────────────────────────────┐
-│ 1. Make sure main is up-to-date│
+│1. Make sure main is up-to-date│
 │                               │
 │ git checkout main             │
 │ git pull                      │
