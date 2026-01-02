@@ -34,6 +34,7 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarContent"
+          aria-label="Toggle navigation menu"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,11 +45,11 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="services.html" style="color:var(--brand-red) !important;">Services</a>
+              <a class="nav-link active" href="services.html">Services</a>
             </li>
-        </li>
-        <a class="nav-link" href="aboutus.html">About US</a>
-        </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About US</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
@@ -132,14 +133,14 @@
 
         <div class="row mt-5">
             <div class="col-12 text-center mb-4">
-                <h2 style="font-family: 'Anton'; font-size: 3rem;">BIKE REPAIR SERVICES</h2>
+                <h2 class="section-title-large">BIKE REPAIR SERVICES</h2>
                 <div class="accent-line"></div>
                 <p>We repair a variety of bikes, from city commuters to road bikes and cruisers.</p>
             </div>
 
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=2070&auto=format&fit=crop" class="card-img-top" alt="City Bike" style="height: 250px; object-fit: cover;">
+                    <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=2070&auto=format&fit=crop" class="card-img-top bike-card-img" alt="City Bike">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">City & Commuter</h5>
                         <p class="card-text">Perfect for getting around USC and Downtown LA. Reliable and stylish.</p>
@@ -149,7 +150,7 @@
 
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm">
-                    <img src="assets/images/roadbike-services.jpeg" class="card-img-top" alt="Road Bike" style="height: 250px; object-fit: cover;">
+                    <img src="assets/images/roadbike-services.jpeg" class="card-img-top bike-card-img" alt="Road Bike">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Road & Fixies</h5>
                         <p class="card-text">Speed focused builds. We have both geared road bikes and single-speed fixies.</p>
@@ -159,7 +160,7 @@
 
             <div class="col-md-4 mb-4">
                 <div class="card h-100 border-0 shadow-sm">
-                    <img src="assets/images/ebike-services.jpg" class="card-img-top" alt="Kids Bike" style="height: 250px; object-fit: cover;">
+                    <img src="assets/images/ebike-services.jpg" class="card-img-top bike-card-img" alt="Kids Bike">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Electric Bikes & Scooters</h5>
                         <p class="card-text">Comfortable rides for the weekend or learning to ride for the first time.</p>
@@ -175,21 +176,21 @@
           
           <div class="col-md-4 mb-4">
             <h4>Visit The Shop</h4>
-            <ul style="list-style: none; padding: 0;">
+            <ul class="footer-list">
               <li class="mb-4">
                 <i class="bi bi-geo-alt-fill"></i>
                 <strong>Address:</strong><br />
-                <a href="https://maps.apple.com/?q=3008+S+Vermont+Ave+Los+Angeles+CA+90007" target="_blank" class="contact-link">
+                <a href="https://maps.apple.com/?q=3008+S+Vermont+Ave+Los+Angeles+CA+90007" target="_blank" rel="noopener" class="contact-link">
                   3008 S Vermont Ave<br />
                   Los Angeles, CA 90007
                 </a>
                 <div class="small text-white mt-1 fst-italic">(University Park)</div>
                 
                 <div class="map-buttons mt-3">
-                  <a href="https://maps.apple.com/?q=3008+S+Vermont+Ave+Los+Angeles+CA+90007" class="btn-map apple-map" target="_blank">
+                  <a href="https://maps.apple.com/?q=3008+S+Vermont+Ave+Los+Angeles+CA+90007" class="btn-map apple-map" target="_blank" rel="noopener">
                     <i class="bi bi-apple"></i> Apple Maps
                   </a>
-                  <a href="https://www.google.com/maps/search/?api=1&query=3008+S+Vermont+Ave+Los+Angeles+CA+90007" class="btn-map google-map" target="_blank">
+                  <a href="https://www.google.com/maps/search/?api=1&query=3008+S+Vermont+Ave+Los+Angeles+CA+90007" class="btn-map google-map" target="_blank" rel="noopener">
                     <i class="bi bi-google"></i> Google Maps
                   </a>
                 </div>
@@ -207,7 +208,7 @@
                 <i class="bi bi-clock-fill"></i>
                 <strong>Hours:</strong><br />
                 Mon - Sat: 11:00 AM - 7:00 PM<br>
-                <span style="color:var(--brand-red)">Sun: 11:00 AM - 4:00 PM</span>
+                <span class="text-red">Sun: 11:00 AM - 4:00 PM</span>
               </li>
             </ul>
           </div>
@@ -220,15 +221,15 @@
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.866034032172!2d-118.2936730242784!3d34.021655973168435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7e0c4515555%3A0x123456789!2s3008%20S%20Vermont%20Ave%2C%20Los%20Angeles%2C%20CA%2090007!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              title="3Brothers Bikeshop Location Map"
             >
             </iframe>
           </div>
 
           <div class="col-md-4 mb-4">
             <h4>Quick Links</h4>
-            <ul style="list-style: none; padding: 0;">
-              <li><a href="about.html" class="footer-link">About Us</a></li>
+            <ul class="footer-list">
+              <li><a href="aboutus.html" class="footer-link">About Us</a></li>
               <li><a href="services.html" class="footer-link">Service Menu</a></li>
               <li><a href="#contact" class="footer-link">Contact</a></li>
             </ul>

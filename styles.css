@@ -361,3 +361,35 @@ footer .border-top a:hover {
   list-style: none;
   padding: 0;
 }
+
+/* Bike Cards Image Styling */
+.bike-card-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Section Title Styling */
+.section-title-large {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+}
+
+/* About Page Legacy Section */
+.legacy-section-title {
+  border-left: none;
+  padding-left: 0;
+}
+
+/* Contact Link Styling */
+.contact-link-white {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Footer Styling for Privacy/Terms Pages */
+.footer-dark {
+  background-color: #212529;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
