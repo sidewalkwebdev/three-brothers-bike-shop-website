@@ -127,6 +127,11 @@ h4,
   background-color: rgba(255, 255, 255, 0.2);
   transform: scale(0.95);
 }
+/* Style the button */
+.btn-primary {
+  background-color: var(--brand-red) !important; /* Forces the red color */
+  border: 2px solid var(--brand-red) !important;
+  color: white !important;}
 
 /* Footer Styling */
 footer {
